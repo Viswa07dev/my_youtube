@@ -1,4 +1,4 @@
-const GOOGLE_API_KEY = "AIzaSyDZFpmFQidIFLO5L13aPM2uHF9L5v1vKjg";
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 
 export const LIVE_CHAT_COUNT = 25;
 
